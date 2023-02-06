@@ -1,7 +1,15 @@
 const reverseString = function(message) {
-    string = message;
-    stringLength = string.stringLength
-    
+    let string = '';
+    let i = message.length;
+    let piece = '';
+
+    while (i > 0) {
+        piece = message.substr(i - 1, 1);
+        string += piece;
+        i--;
+    }
+
+    return string
 
 };
 
