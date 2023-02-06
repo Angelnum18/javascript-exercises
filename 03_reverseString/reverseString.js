@@ -1,4 +1,7 @@
-const reverseString = function() {
+const reverseString = function(message) {
+    string = message;
+    stringLength = string.stringLength
+    
 
 };
 
